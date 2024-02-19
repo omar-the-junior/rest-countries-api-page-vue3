@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/countries-api-page-using-vue3-wj_jiECOAx)
+- [Live Site URL](https://rest-countries-api-page-vue3.vercel.app/)
 
 ## My process
 
