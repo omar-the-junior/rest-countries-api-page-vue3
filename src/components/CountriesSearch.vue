@@ -49,11 +49,11 @@ watch(() => route.params, countriesStore.fetchCountries, { immediate: true })
     </div>
 
     <div
-      class="mt-14 flex flex-wrap justify-center gap-x-10 gap-y-14 sm:justify-start"
+      class="mt-14 flex flex-wrap justify-center gap-x-10 gap-y-14 sm:justify-between"
       :class="{ 'items-center': !filteredCountries.length }"
     >
       <CountryCard
-        class="h-[360px] w-[280px] sm:h-[325px] sm:w-[240px]"
+        class="h-[360px] w-[290px] sm:h-[325px] sm:w-[240px]"
         v-for="(country, index) in filteredCountries"
         :key="country?.name?.official"
         :title="country?.name?.common"
