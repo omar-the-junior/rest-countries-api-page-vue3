@@ -7,6 +7,5 @@
 
     "lib": [],
     "types": ["node", "jsdom", "vitest/globals", "@testing-library/jest-dom"]
-  },
-  "include": ["./vitest-setup.ts", "./src/**/*"]
+  }
 }
